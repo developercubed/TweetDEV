@@ -1,0 +1,5 @@
+HELP:
+
+[PREFIX]help: (Shows cmds)
+
+[PREFIX]prefix[set]: (Shows prefix), \\OPTIONAL// Set: [Changes prefix to user-input]

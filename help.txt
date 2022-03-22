@@ -1,5 +1,0 @@
-HELP:
-
-[PREFIX]help: (Shows cmds)
-
-[PREFIX]prefix[change]: (Shows prefix), \\OPTIONAL// Change: [Changes prefix to user-input, set to NONE to skip]
