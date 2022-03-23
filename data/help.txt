@@ -9,3 +9,5 @@ HELP:
 [PREFIX]get_user: (Get ID and Name of specified User)
 
 [PREFIX]get_settings: (Get your Twitter settings)
+
+[PREFIX]get_banner: (Get Banner of specified User
