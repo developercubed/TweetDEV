@@ -5,3 +5,7 @@ HELP:
 [PREFIX]prefix[set]: (Shows prefix), \\OPTIONAL// Set: [Changes prefix to user-input]
 
 [PREFIX]key[set]: (Shows keys), \\OPTIONAL// Set: [Changes keys to user-input]
+
+[PREFIX]get_user: (Get ID and Name of specified User)
+
+[PREFIX]get_settings: (Get your Twitter settings)
