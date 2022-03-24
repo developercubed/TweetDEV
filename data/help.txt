@@ -6,6 +6,8 @@ HELP:
 
 [PREFIX]key[set]: (Shows keys), \\OPTIONAL// Set: [Changes keys to user-input]
 
+[PREFIX]check_key: (Check if your keys are set)
+
 [PREFIX]get_user: (Get ID and Name of specified User)
 
 [PREFIX]get_settings: (Get your Twitter settings)
