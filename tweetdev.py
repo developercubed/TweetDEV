@@ -64,7 +64,7 @@ filename = os.path.join(os.getcwd(), 'data/help.txt')
 filename2 = os.path.join(os.getcwd(), 'data/data.json')
 if not os.path.exists("data"):
     os.mkdir("data")
-    url = "https://raw.githubusercontent.com/tetradev/TweetDEV/main/help.txt"
+    url = "https://raw.githubusercontent.com/tetradev/TweetDEV/master/help.txt"
     r = requests.get(url)
     f = open(filename, 'wb')
     f.write(r.content)
@@ -75,7 +75,7 @@ if not os.path.exists("data"):
 
 ## Fail safe if help.txt is modified, then it'll overwrite the file ##
 with open('data/help.txt', 'wb') as file:
-    r = requests.get("https://raw.githubusercontent.com/tetradev/TweetDEV/main/data/help.txt")
+    r = requests.get("https://raw.githubusercontent.com/tetradev/TweetDEV/master/data/help.txt")
     if not r == open('data/help.txt', 'r').read():
         file.write(r.content)
         file.close()
